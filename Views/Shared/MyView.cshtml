@@ -1,0 +1,18 @@
+﻿@model  MVCTest.Models.Employee
+@{Layout = null;}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    Welcome to MVC 5 Step by Step learning
+    <div>
+       
+    <b>Employee Details </b><br />
+        Employee Name : @Model.FirstName @Model.LastName <br />
+        Employee Salary: @Model.Salary.ToString("C")
+    </div>
+</body>
+</html>
